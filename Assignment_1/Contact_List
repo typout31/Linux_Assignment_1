@@ -2,7 +2,7 @@
 
 DIR="$HOME/Contacts"
 
-#directory setup
+#Setup Directory in Home Directory
 if [ ! -d "$DIR" ]; then
 	mkdir "$DIR"
 fi

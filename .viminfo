@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1636090074,,"wq"
+|2,0,1636094419,,"wq"
 :q
 |2,0,1636087316,,"q"
 :w
@@ -51,36 +51,52 @@
 |3,1,36,0,1,0,1636068066,"E"
 
 # File marks:
-'0  37  25  ~/Assignment_1/links
-|4,48,37,25,1636090074,"~/Assignment_1/links"
-'1  46  0  ~/Assignment_1/line_numbers
-|4,49,46,0,1636088720,"~/Assignment_1/line_numbers"
-'2  10  52  ~/Assignment_1/Contact_List
-|4,50,10,52,1636087473,"~/Assignment_1/Contact_List"
-'3  3  8  ~/Assignment_1/line_numbers
-|4,51,3,8,1636087335,"~/Assignment_1/line_numbers"
-'4  3  8  ~/Assignment_1/line_numbers
-|4,52,3,8,1636087335,"~/Assignment_1/line_numbers"
-'5  1  0  ~/Assignment_1/line
-|4,53,1,0,1636087316,"~/Assignment_1/line"
-'6  31  8  ~/Assignment_1/line_numbers
-|4,54,31,8,1636087262,"~/Assignment_1/line_numbers"
-'7  31  8  ~/Assignment_1/line_numbers
-|4,55,31,8,1636087262,"~/Assignment_1/line_numbers"
-'8  27  8  ~/Assignment_1/line_numbers
-|4,56,27,8,1636087262,"~/Assignment_1/line_numbers"
-'9  27  8  ~/Assignment_1/line_numbers
-|4,57,27,8,1636087262,"~/Assignment_1/line_numbers"
+'0  5  33  ~/Assignment_1/Contact_List
+|4,48,5,33,1636094419,"~/Assignment_1/Contact_List"
+'1  37  25  ~/Assignment_1/links
+|4,49,37,25,1636090074,"~/Assignment_1/links"
+'2  46  0  ~/Assignment_1/line_numbers
+|4,50,46,0,1636088720,"~/Assignment_1/line_numbers"
+'3  10  52  ~/Assignment_1/Contact_List
+|4,51,10,52,1636087473,"~/Assignment_1/Contact_List"
+'4  10  52  ~/Assignment_1/Contact_List
+|4,52,10,52,1636087473,"~/Assignment_1/Contact_List"
+'5  3  8  ~/Assignment_1/line_numbers
+|4,53,3,8,1636087335,"~/Assignment_1/line_numbers"
+'6  3  8  ~/Assignment_1/line_numbers
+|4,54,3,8,1636087335,"~/Assignment_1/line_numbers"
+'7  1  0  ~/Assignment_1/line
+|4,55,1,0,1636087316,"~/Assignment_1/line"
+'8  31  8  ~/Assignment_1/line_numbers
+|4,56,31,8,1636087262,"~/Assignment_1/line_numbers"
+'9  31  8  ~/Assignment_1/line_numbers
+|4,57,31,8,1636087262,"~/Assignment_1/line_numbers"
 
 # Jumplist (newest first):
+-'  5  33  ~/Assignment_1/Contact_List
+|4,39,5,33,1636094419,"~/Assignment_1/Contact_List"
+-'  10  52  ~/Assignment_1/Contact_List
+|4,39,10,52,1636094389,"~/Assignment_1/Contact_List"
 -'  37  25  ~/Assignment_1/links
 |4,39,37,25,1636090074,"~/Assignment_1/links"
+-'  37  25  ~/Assignment_1/links
+|4,39,37,25,1636090074,"~/Assignment_1/links"
+-'  35  6  ~/Assignment_1/links
+|4,39,35,6,1636088752,"~/Assignment_1/links"
 -'  35  6  ~/Assignment_1/links
 |4,39,35,6,1636088752,"~/Assignment_1/links"
 -'  46  0  ~/Assignment_1/line_numbers
 |4,39,46,0,1636088720,"~/Assignment_1/line_numbers"
 -'  46  0  ~/Assignment_1/line_numbers
 |4,39,46,0,1636088720,"~/Assignment_1/line_numbers"
+-'  46  0  ~/Assignment_1/line_numbers
+|4,39,46,0,1636088720,"~/Assignment_1/line_numbers"
+-'  46  0  ~/Assignment_1/line_numbers
+|4,39,46,0,1636088720,"~/Assignment_1/line_numbers"
+-'  3  8  ~/Assignment_1/line_numbers
+|4,39,3,8,1636087474,"~/Assignment_1/line_numbers"
+-'  3  8  ~/Assignment_1/line_numbers
+|4,39,3,8,1636087474,"~/Assignment_1/line_numbers"
 -'  3  8  ~/Assignment_1/line_numbers
 |4,39,3,8,1636087474,"~/Assignment_1/line_numbers"
 -'  3  8  ~/Assignment_1/line_numbers
@@ -101,6 +117,8 @@
 |4,39,53,20,1636087342,"~/Assignment_1/Contact_List"
 -'  53  20  ~/Assignment_1/Contact_List
 |4,39,53,20,1636087342,"~/Assignment_1/Contact_List"
+-'  53  20  ~/Assignment_1/Contact_List
+|4,39,53,20,1636087342,"~/Assignment_1/Contact_List"
 -'  3  8  ~/Assignment_1/line_numbers
 |4,39,3,8,1636087335,"~/Assignment_1/line_numbers"
 -'  3  8  ~/Assignment_1/line_numbers
@@ -109,6 +127,26 @@
 |4,39,3,8,1636087335,"~/Assignment_1/line_numbers"
 -'  3  8  ~/Assignment_1/line_numbers
 |4,39,3,8,1636087335,"~/Assignment_1/line_numbers"
+-'  3  8  ~/Assignment_1/line_numbers
+|4,39,3,8,1636087335,"~/Assignment_1/line_numbers"
+-'  3  8  ~/Assignment_1/line_numbers
+|4,39,3,8,1636087335,"~/Assignment_1/line_numbers"
+-'  3  8  ~/Assignment_1/line_numbers
+|4,39,3,8,1636087335,"~/Assignment_1/line_numbers"
+-'  3  8  ~/Assignment_1/line_numbers
+|4,39,3,8,1636087335,"~/Assignment_1/line_numbers"
+-'  31  8  ~/Assignment_1/line_numbers
+|4,39,31,8,1636087325,"~/Assignment_1/line_numbers"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087325,"~/Assignment_1/line_numbers"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087325,"~/Assignment_1/line_numbers"
+-'  31  8  ~/Assignment_1/line_numbers
+|4,39,31,8,1636087325,"~/Assignment_1/line_numbers"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087325,"~/Assignment_1/line_numbers"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087325,"~/Assignment_1/line_numbers"
 -'  31  8  ~/Assignment_1/line_numbers
 |4,39,31,8,1636087325,"~/Assignment_1/line_numbers"
 -'  27  8  ~/Assignment_1/line_numbers
@@ -153,6 +191,54 @@
 |4,39,1,0,1636087316,"~/Assignment_1/line"
 -'  1  0  ~/Assignment_1/line
 |4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  1  0  ~/Assignment_1/line
+|4,39,1,0,1636087316,"~/Assignment_1/line"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087262,"~/Assignment_1/line_numbers"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087262,"~/Assignment_1/line_numbers"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087262,"~/Assignment_1/line_numbers"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087262,"~/Assignment_1/line_numbers"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087262,"~/Assignment_1/line_numbers"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087262,"~/Assignment_1/line_numbers"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087262,"~/Assignment_1/line_numbers"
+-'  27  8  ~/Assignment_1/line_numbers
+|4,39,27,8,1636087262,"~/Assignment_1/line_numbers"
 -'  27  8  ~/Assignment_1/line_numbers
 |4,39,27,8,1636087262,"~/Assignment_1/line_numbers"
 -'  27  8  ~/Assignment_1/line_numbers
@@ -187,94 +273,114 @@
 |4,39,11,32,1636087210,"~/Assignment_1/line_numbers"
 -'  9  32  ~/Assignment_1/line_numbers
 |4,39,9,32,1636087210,"~/Assignment_1/line_numbers"
--'  9  32  ~/Assignment_1/line_numbers
-|4,39,9,32,1636087210,"~/Assignment_1/line_numbers"
--'  9  32  ~/Assignment_1/line_numbers
-|4,39,9,32,1636087210,"~/Assignment_1/line_numbers"
--'  9  32  ~/Assignment_1/line_numbers
-|4,39,9,32,1636087210,"~/Assignment_1/line_numbers"
--'  9  32  ~/Assignment_1/line_numbers
-|4,39,9,32,1636087210,"~/Assignment_1/line_numbers"
--'  9  32  ~/Assignment_1/line_numbers
-|4,39,9,32,1636087210,"~/Assignment_1/line_numbers"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  30  6  ~/Assignment_1/links
-|4,39,30,6,1636087194,"~/Assignment_1/links"
--'  41  10  ~/Assignment_1/links
-|4,39,41,10,1636086941,"~/Assignment_1/links"
--'  35  10  ~/Assignment_1/links
-|4,39,35,10,1636086941,"~/Assignment_1/links"
--'  35  10  ~/Assignment_1/links
-|4,39,35,10,1636086941,"~/Assignment_1/links"
--'  35  10  ~/Assignment_1/links
-|4,39,35,10,1636086941,"~/Assignment_1/links"
--'  35  10  ~/Assignment_1/links
-|4,39,35,10,1636086941,"~/Assignment_1/links"
--'  35  10  ~/Assignment_1/links
-|4,39,35,10,1636086941,"~/Assignment_1/links"
 
 # History of marks within files (newest to oldest):
+
+> ~/Assignment_1/Contact_List
+	*	1636094418	0
+	"	5	33
+	^	5	34
+	.	5	34
+	+	37	19
+	+	36	1
+	+	36	48
+	+	36	22
+	+	36	48
+	+	37	2
+	+	36	57
+	+	35	39
+	+	33	0
+	+	35	29
+	+	36	1
+	+	36	47
+	+	37	1
+	+	35	29
+	+	36	1
+	+	35	28
+	+	36	0
+	+	37	1
+	+	43	1
+	+	36	47
+	+	37	14
+	+	37	2
+	+	36	60
+	+	37	10
+	+	46	29
+	+	46	48
+	+	36	16
+	+	46	0
+	+	46	30
+	+	36	23
+	+	36	36
+	+	36	6
+	+	36	37
+	+	36	26
+	+	36	25
+	+	39	2
+	+	36	15
+	+	36	44
+	+	36	45
+	+	39	0
+	+	37	2
+	+	36	28
+	+	37	2
+	+	36	25
+	+	46	0
+	+	46	51
+	+	48	21
+	+	48	2
+	+	48	15
+	+	56	1
+	+	46	27
+	+	50	9
+	+	23	0
+	+	45	0
+	+	50	14
+	+	11	0
+	+	11	24
+	+	21	15
+	+	21	16
+	+	21	0
+	+	21	20
+	+	21	58
+	+	21	35
+	+	21	36
+	+	21	1
+	+	21	18
+	+	21	6
+	+	21	4
+	+	11	0
+	+	21	0
+	+	11	28
+	+	14	10
+	+	11	15
+	+	14	10
+	+	15	59
+	+	16	37
+	+	17	6
+	+	15	59
+	+	17	38
+	+	18	0
+	+	11	17
+	+	19	1
+	+	21	0
+	+	20	4
+	+	21	0
+	+	15	82
+	+	48	2
+	+	50	1
+	+	49	2
+	+	52	1
+	+	55	0
+	+	53	21
+	+	54	7
+	+	51	7
+	+	38	7
+	+	42	0
+	+	41	7
+	+	31	6
+	+	10	52
+	+	5	34
 
 > ~/Assignment_1/links
 	*	1636090073	0
@@ -487,112 +593,6 @@
 	+	33	2
 	+	25	8
 	+	45	2
-
-> ~/Assignment_1/Contact_List
-	*	1636087471	0
-	"	10	52
-	^	10	53
-	.	10	52
-	+	36	16
-	+	37	19
-	+	36	1
-	+	36	48
-	+	36	22
-	+	36	48
-	+	37	2
-	+	36	57
-	+	35	39
-	+	33	0
-	+	35	29
-	+	36	1
-	+	36	47
-	+	37	1
-	+	35	29
-	+	36	1
-	+	35	28
-	+	36	0
-	+	37	1
-	+	43	1
-	+	36	47
-	+	37	14
-	+	37	2
-	+	36	60
-	+	37	10
-	+	46	29
-	+	46	48
-	+	36	16
-	+	46	0
-	+	46	30
-	+	36	23
-	+	36	36
-	+	36	6
-	+	36	37
-	+	36	26
-	+	36	25
-	+	39	2
-	+	36	15
-	+	36	44
-	+	36	45
-	+	39	0
-	+	37	2
-	+	36	28
-	+	37	2
-	+	36	25
-	+	46	0
-	+	46	51
-	+	48	21
-	+	48	2
-	+	48	15
-	+	56	1
-	+	46	27
-	+	50	9
-	+	23	0
-	+	45	0
-	+	50	14
-	+	11	0
-	+	11	24
-	+	21	15
-	+	21	16
-	+	21	0
-	+	21	20
-	+	21	58
-	+	21	35
-	+	21	36
-	+	21	1
-	+	21	18
-	+	21	6
-	+	21	4
-	+	11	0
-	+	21	0
-	+	11	28
-	+	14	10
-	+	11	15
-	+	14	10
-	+	15	59
-	+	16	37
-	+	17	6
-	+	15	59
-	+	17	38
-	+	18	0
-	+	11	17
-	+	19	1
-	+	21	0
-	+	20	4
-	+	21	0
-	+	15	82
-	+	48	2
-	+	50	1
-	+	49	2
-	+	52	1
-	+	55	0
-	+	53	21
-	+	54	7
-	+	51	7
-	+	38	7
-	+	42	0
-	+	41	7
-	+	31	6
-	+	10	52
 
 > ~/Assignment_1/line
 	*	1636087312	0
