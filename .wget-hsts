@@ -1,0 +1,5 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+alpinelinux.org	0	0	1636090246	31536000
+www.alpinelinux.org	0	0	1636060839	31536000

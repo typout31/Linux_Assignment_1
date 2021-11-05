@@ -1,0 +1,46 @@
+#!/bin/bash
+
+COUNTER=0
+add_counter=0
+file="$2"
+
+#Options: -h displays format | -n numbers lines
+while getopts ":hn" opt; do
+	case "${opt}" in
+		h)
+			echo "line_numbers [Optional: -n] lnnm [file]"
+			add_counter=2
+			;;
+		n)
+			add_counter=1
+			file="$3"
+			;;
+	esac
+done
+
+if [ $add_counter = 2 ]; then
+	exit 0	
+else	
+	if [ -f "$file" ]; then
+# Display file line numbers of a specified file
+		if [ $add_counter = 1 ]; then
+			while read p; do
+				COUNTER=$((COUNTER+1))
+				echo "$COUNTER: $p"
+			done < $file
+			exit 0
+		fi
+# Display file lines of a specified line
+		if [ $add_counter = 0 ]; then
+			while read p; do
+				echo "$p"
+			done < $file
+			exit 0
+		fi
+	else
+# Error for missing file
+		echo "File to modify does not exist"
+		exit 2
+	fi
+fi
+

@@ -1,0 +1,56 @@
+#!/bin/bash
+
+DIR="$HOME/Contacts"
+
+#directory setup
+if [ ! -d "$DIR" ]; then
+	mkdir "$DIR"
+fi
+
+#Options: -h displays help which shows script options
+while getopts ":h" opt; do
+	case "${opt}" in
+		h)
+			printf "Options:\n"
+			echo "Contacts_list add [Name] [Optional: Email] [Optional: Address] [Optional: Phone]"
+			echo "Contacts_list delete [Name]"
+			echo "Contacts_list display [Name]"
+			;;
+	esac
+done
+
+#Add Contact
+file="$DIR/$2"
+if [ "$1" = "add" ]; then
+	>> "$file"
+	echo "Name: $2" >> $file
+	echo "Email: $3" >> $file
+	echo "Address: $4" >> $file
+	echo "Phone: $5" >> $file
+
+	exit 0
+fi
+
+#Delete Contact
+if [ "$1" = "delete" ]; then	
+	if [[ -f "$file" ]]; then
+		rm $file
+		exit 0
+	else
+		echo "Invalid File"
+		exit 1
+	fi
+fi
+
+#Display Contact Info
+if [ "$1" = "display" ]; then
+	if [[ -f "$file" ]]; then
+		while read p; do
+			echo "$p"
+		done < "$file"
+		exit 0
+	else
+		echo "Invalid File"
+		exit 1
+	fi
+fi	

@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#Add Links to a File
+FILE="./file"
+URL=$1
+URLs="URLs"
+
+#Options: -h display format | -f targets a specific file location
+while getopts ":h:f:" opt; do
+	case "${opt}" in
+		h)
+			echo "links [optional: -f file] URL"
+			;;
+		f)
+			>> ${OPTARG}
+			FILE="./${OPTARG}"
+			URL="$3"
+			;;
+	esac
+done
+
+#Clears any previous file {stops duplicates from being created}
+if [ -f $FILE ]; then
+	rm -r $FILE
+fi
+
+#Grabs URLs from the link and puts them into specified file or default file
+#Check if URL is valid
+if wget $URL >/dev/null 2>&1; then 
+	grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" "index.html" >> $FILE
+	while read -r line; do
+		echo $line
+	done < "$FILE"
+	rm -r index.html
+	exit 0	
+else
+#Invalid URL given by User
+	echo "Invalid URL"
+	exit 1
+fi
+
