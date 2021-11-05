@@ -19,7 +19,7 @@ while getopts ":h" opt; do
 	esac
 done
 
-#Add Contact
+#Add Contacts
 file="$DIR/$2"
 if [ "$1" = "add" ]; then
 	>> "$file"

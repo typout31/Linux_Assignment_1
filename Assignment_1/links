@@ -1,41 +1,50 @@
 #!/bin/bash
 
 #Add Links to a File
+STATE=1
 FILE="./file"
 URL=$1
 URLs="URLs"
 
 #Options: -h display format | -f targets a specific file location
-while getopts ":h:f:" opt; do
+while getopts ":hf::" opt; do
 	case "${opt}" in
 		h)
 			echo "links [optional: -f file] URL"
+			STATE=0
 			;;
 		f)
-			>> ${OPTARG}
-			FILE="./${OPTARG}"
-			URL="$3"
+			if [[ $3 = "" ]]; then
+				echo "Missing URL or File"
+				STATE=0
+				exit 1
+			else
+				>> ${OPTARG}
+				FILE="./${OPTARG}"
+				URL="$3"
+
+			fi
 			;;
 	esac
 done
 
-#Clears any previous file {stops duplicates from being created}
-if [ -f $FILE ]; then
-	rm -r $FILE
-fi
-
+if [[ $STATE -gt 0 ]]; then
+#Clears any previous data on hard coded file
+	if [[ -f $FILE ]]; then
+		rm -r $FILE
+	fi
 #Grabs URLs from the link and puts them into specified file or default file
 #Check if URL is valid
-if wget $URL >/dev/null 2>&1; then 
-	grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" "index.html" >> $FILE
-	while read -r line; do
-		echo $line
-	done < "$FILE"
-	rm -r index.html
-	exit 0	
-else
+	if wget $URL >/dev/null 2>&1; then 
+		grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" "index.html" >> $FILE
+		while read -r line; do
+			echo $line
+		done < "$FILE"
+		rm -r index.html
+		exit 0	
+	else
 #Invalid URL given by User
-	echo "Invalid URL"
-	exit 1
+		echo "Invalid URL"
+		exit 1
+	fi
 fi
-
